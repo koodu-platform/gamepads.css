@@ -58,7 +58,8 @@
          display: flex;
          justify-content: center;
          align-items: center;
-        // @extend %centered;
+
+         // @extend %centered;
          &:before {
              display: inline-block;
              content: " ";
@@ -86,13 +87,45 @@
 
  @mixin make-triangle($color: green) {
      & {
-            display: inline-block;
-            content: " ";
-            width: 0;
-            height: 0;
-            border-left: 50px solid transparent;
-            border-right: 50px solid red;
-            border-bottom: 100px solid tan;
-            z-index: 1;
+         position: relative;
+         width: 20px;
+         margin-top: 100px;
+
+         >div {
+             width: 20px;
+             height: 2px;
+             background: red;
+             margin-top: 100px;
+
+             &:before {
+                 content: " ";
+                 display: block;
+                 width: 20px;
+                 height: 2px;
+                 background: red;
+                 -webkit-transform: rotate(56deg);
+                 -moz-transform: rotate(56deg);
+                 -ms-transform: rotate(56deg);
+                 transform: rotate(56deg);
+                 position: absolute;
+                 top: -8px;
+                 right: -5px;
+             }
+
+             &:after {
+                 content: " ";
+                 display: block;
+                 width: 20px;
+                 height: 2px;
+                 background: red;
+                 -webkit-transform: rotate(-56deg);
+                 -moz-transform: rotate(-56deg);
+                 -ms-transform: rotate(-56deg);
+                 transform: rotate(-56deg);
+                 position: absolute;
+                 top: -8px;
+                 left: -5px;
+             }
+         }
      }
  }
