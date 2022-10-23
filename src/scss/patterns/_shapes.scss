@@ -58,7 +58,7 @@
          display: flex;
          justify-content: center;
          align-items: center;
-        @extend %centered;
+        // @extend %centered;
          &:before {
              display: inline-block;
              content: " ";
@@ -86,14 +86,13 @@
 
  @mixin make-triangle($color: green) {
      & {
-
-         width: 100px;
-         height: 100px;
-
-         // create a hollow triangle.
-         &:before {
-             content: " ";
-         }
-
+            display: inline-block;
+            content: " ";
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid red;
+            border-bottom: 100px solid tan;
+            z-index: 1;
      }
  }
