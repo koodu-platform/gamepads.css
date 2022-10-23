@@ -42,33 +42,28 @@ html, body {
   display: flex;
 }
 
-.btn__cross:before {
-  content: " ";
-  width: 14px;
-  height: 100px;
-  z-index: 1;
-  background-color: #00f;
-  display: inline-block;
-  transform: rotate(45deg);
+@cen & :before {
+  . btn__cross { display: inline-block; content: " "; transform: rotate(45deg) translateX(50%) ; float: left; background-color: blue; width: 14px; height: 50px; z-index: 1; }
 }
 
 .btn__cross:after {
   content: " ";
   width: 14px;
   z-index: 1;
-  height: 100px;
+  float: right;
+  height: 50px;
   background-color: #00f;
   display: inline-block;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg)translateX(-50%);
 }
 
 .btn__triangle {
   width: 100px;
   height: 100px;
-  z-index: 1;
-  border-bottom: 100px solid green;
-  border-left: 100px solid #0000;
-  border-right: 100px solid #0000;
+}
+
+.btn__triangle:before {
+  content: " ";
 }
 
 /*# sourceMappingURL=index.fa21b4f1.css.map */

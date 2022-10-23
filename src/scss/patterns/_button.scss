@@ -1,4 +1,3 @@
-
 @mixin make-round-button($width, $height, $color: black) {
     & {
         width: $width;
@@ -15,9 +14,8 @@
 @mixin make-directional-button($width, $height, $color: black) {
     & {
         @include make-square($width, $height);
-        z-index: -1;
 
-        &:after {
+        z-index: -1;/ &:after {
             display: block;
             content: " ";
             float: right;

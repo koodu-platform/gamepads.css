@@ -58,11 +58,12 @@
          display: flex;
          justify-content: center;
          align-items: center;
-
+        @extend %centered;
          &:before {
              display: inline-block;
              content: " ";
-             transform: rotate(45deg);
+             transform: rotate(45deg) translateX(50%);
+             float: left;
              background-color: $color;
              width: 14px;
              height: $height;
@@ -72,23 +73,27 @@
          &:after {
              display: inline-block;
              content: " ";
-             transform: rotate(-45deg);
+             transform: rotate(-45deg) translateX(-50%);
              background-color: $color;
              width: 14px;
              z-index: 1;
+             float: right;
              height: $height;
 
          }
      }
  }
 
- @mixin make-triangle($width, $height, $color: green) {
+ @mixin make-triangle($color: green) {
      & {
-         width: $width;
-         height: $height;
-         border-left: $width solid transparent;
-         border-right: $width solid transparent;
-         border-bottom: $width solid $color;
-         z-index: 1; // <--abstract this to a variable in the future
+
+         width: 100px;
+         height: 100px;
+
+         // create a hollow triangle.
+         &:before {
+             content: " ";
+         }
+
      }
  }

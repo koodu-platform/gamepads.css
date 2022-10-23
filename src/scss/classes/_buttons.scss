@@ -11,14 +11,14 @@ $btn-size: 100px;
     }
 
     &__circle {
-        @include make-circle($btn-size, $btn-size);
+        @include make-circle($btn-size, $btn-size); 
     }
 
     &__cross {
-        @include make-cross($btn-size);
+        @include make-cross(calc($btn-size / 2));
     }
 
     &__triangle {
-        @include make-triangle($btn-size, $btn-size);
+        @include make-triangle();
     }
 }
