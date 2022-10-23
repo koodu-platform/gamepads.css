@@ -1,8 +1,11 @@
 @import "../patterns/_settings.scss";
+$btn-size: 100px;
 
-.button {
-    @include make-square(100px, 100px);
-    background-color: black;
-    z-index: -1;
+.btn {
+    width: $btn-size;
+    height: $btn-size;
+    outline: $btn-size/4 solid;
+    @include make-round-button($btn-size, $btn-size, black);
 
+  
 }

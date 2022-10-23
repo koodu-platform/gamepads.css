@@ -1,12 +1,17 @@
 @mixin make-round-button($width, $height) {
-    border-radius: 100%;
-    background-color: black;
-    @include make-circle(100px, 100px);
-    z-index: -1;
+    & {
+        width: $width;
+        height: $height;
+        border-radius: 100%;
+        background-color: black;
+        @include make-circle(100px, 100px);
+        z-index: -1;
+    }
+
 }
 
 
-@mixin make-directional-buttion($width, $height, $color: black) {
+@mixin make-directional-button($width, $height, $color: black) {
     & {
         @include make-square($width, $height);
         z-index: -1;
