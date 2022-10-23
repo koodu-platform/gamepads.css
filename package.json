@@ -4,7 +4,9 @@
   "description": "A gamepad tester service on the world wide web.",
   "main": "null",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "parcel build src/index.html --lazy",
+    "dev": "parcel src/index.html "
   },
   "author": "Nnamdi Michael Okpala",
   "license": "ISC",
