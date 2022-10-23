@@ -1,0 +1,75 @@
+%centered {
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid $color;
+}
+
+%bordered {
+    border-top: 50%;
+    border-bottom: 50%;
+}
+
+
+@mixin make-square($width, $height, $color: orange) {
+    & {
+        //bordered
+        @extend %bordered;
+        width: $width;
+        height: $height;
+        @extend %centered;
+        border: 14px solid $color;
+        z-index: 1;
+
+    }
+}
+
+@mixin make-circle($width, $height, $color: orange) {
+    & {
+        //bordered
+        @extend %bordered;
+        width: $width;
+        height: $height;
+        @extend %centered;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+}
+
+@mixin make-cross($width, $height, $color: blue) {
+    & {
+        :first-child {
+            transform: rotate(45deg);
+            @extend %centered;
+            border: 12px solid $color;
+            z-index: 1;
+
+        }
+
+        :last-child {
+            transform: rotate(-45deg);
+            @extend %centered;
+            border: 12px solid $color;
+            z-index: 1;
+
+        }
+    }
+}
+
+@mixin make-triangle($width, $height, $color: green) {
+    & {
+        @extend %bordered;
+        width: $width;
+        height: $height;
+        border-left: $width solid transparent;
+        border-right: $width solid transparent;
+        border-bottom: $height solid $color;
+        z-index: 1; // <--abstract this to a variable in the future
+
+        @extend %centered;
+    }
+}

@@ -1,0 +1,6 @@
+@mixin make-button($width, $height) {
+    border-radius: 100%;
+    background-color: black;
+    @include make-circle(100px, 100px);
+    z-index: -1;
+}

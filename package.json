@@ -1,0 +1,15 @@
+{
+  "name": "gamepadtester.com",
+  "version": "0.0.1",
+  "description": "A gamepad tester service on the world wide web.",
+  "main": "null",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nnamdi Michael Okpala",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "typescript": "^4.8.4"
+  }
+}

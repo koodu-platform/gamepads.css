@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "esnext",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "strict": true,
+        "baseUrl": "./",
+        "paths": {
+            "./*": [
+                "./*"
+            ],
+        },
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
