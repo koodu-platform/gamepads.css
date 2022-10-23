@@ -1,0 +1,15 @@
+@mixin scene-3d($bv) {
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+    transform: translateZ(0); // fix for Chrome
+    backface-visibility: $bv;
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin scene-2d($bv) {
+    perspective: none;
+    transform-style: flat;
+    backface-visibility: $bv;
+    transition: all 0.5s ease-in-out;
+}

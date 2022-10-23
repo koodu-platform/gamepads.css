@@ -1,0 +1,8 @@
+@import "../patterns/_settings.scss";
+
+.button {
+    @include make-square(100px, 100px);
+    background-color: black;
+    z-index: -1;
+
+}
