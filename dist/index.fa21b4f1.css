@@ -10,23 +10,65 @@ html, body {
 }
 
 .btn {
-  border-top: 50%;
-  border-bottom: 50%;
   width: 100px;
   height: 100px;
   width: 100px;
   height: 100px;
   z-index: -1;
+  background-color: #000;
+  border-radius: 100%;
+  outline: 25px solid #000;
+}
+
+.btn__square {
   width: 100px;
   height: 100px;
   z-index: 1;
-  background-color: #000;
+  border: 14px solid orange;
+  border-radius: 0;
+}
+
+.btn__circle {
+  width: 100px;
+  height: 100px;
+  z-index: 1;
   border: 14px solid red;
   border-radius: 100%;
-  outline: 25px solid;
-  margin: auto;
-  position: relative;
-  inset: 0;
+}
+
+.btn__cross {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn__cross:before {
+  content: " ";
+  width: 14px;
+  height: 100px;
+  z-index: 1;
+  background-color: #00f;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+.btn__cross:after {
+  content: " ";
+  width: 14px;
+  z-index: 1;
+  height: 100px;
+  background-color: #00f;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+.btn__triangle {
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  border-bottom: 100px solid green;
+  border-left: 100px solid #0000;
+  border-right: 100px solid #0000;
 }
 
 /*# sourceMappingURL=index.fa21b4f1.css.map */

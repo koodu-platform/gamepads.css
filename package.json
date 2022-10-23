@@ -4,7 +4,7 @@
   "description": "A gamepad testing service",
   "scripts": {
     "test": "mocha",
-    "build": "parcel build src/index.html --lazy",
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html "
   },
   "author": "Nnamdi Michael Okpala",

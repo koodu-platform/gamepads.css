@@ -1,75 +1,94 @@
-%centered {
-    position: relative;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+ %vertical-centered {
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+ }
 
-%bordered {
-    border-top: 50%;
-    border-bottom: 50%;
-}
+ %horizontal-centered {
+     margin: auto 0;
+     top: 0;
+     bottom: 0;
+ }
+
+ %centered {
+     position: relative;
+     margin: auto;
+     @extend %vertical-centered;
+     @extend %horizontal-centered;
+ }
 
 
-@mixin make-square($width, $height, $color: orange) {
-    & {
-        //bordered
-        @extend %bordered;
-        width: $width;
-        height: $height;
-        @extend %centered;
-        border: 14px solid $color;
-        z-index: 1;
+ %bordered-top {
+     border-top: 50%;
+     border-bottom: 50%;
+ }
 
-    }
-}
+ %bordered-bottom {
 
-@mixin make-circle($width, $height, $color: red) {
-    & {
-        //bordered
-        @extend %bordered;
-        width: $width;
-        height: $height;
-        @extend %centered;
-        border-radius: 100%;
-        border: 14px solid $color;
-        z-index: 1;
-    }
+     border-top: 50%;
+     border-bottom: 50%;
 
-}
+ }
 
-@mixin make-cross($width, $height, $color: blue) {
-    & {
-        :first-child {
-            transform: rotate(45deg);
-            @extend %centered;
-            border: 12px solid $color;
-            z-index: 1;
 
-        }
+ @mixin make-square($width, $height, $color: orange) {
+     & {
+         width: $width;
+         height: $height;
+         border: 14px solid $color;
+         z-index: 1;
+         border-radius: 0px;
 
-        :last-child {
-            transform: rotate(-45deg);
-            @extend %centered;
-            border: 12px solid $color;
-            z-index: 1;
+     }
+ }
 
-        }
-    }
-}
+ @mixin make-circle($width, $height, $color: red) {
+     & {
+         border-radius: 100%;
+         width: $width;
+         height: $height;
+         border: 14px solid $color;
+         z-index: 1;
+     }
 
-@mixin make-triangle($width, $height, $color: green) {
-    & {
-        @extend %bordered;
-        width: $width;
-        height: $height;
-        border-left: $width solid transparent;
-        border-right: $width solid transparent;
-        border-bottom: $height solid $color;
-        z-index: 1; // <--abstract this to a variable in the future
+ }
 
-        @extend %centered;
-    }
-}
+ @mixin make-cross($height, $color: blue) {
+     & {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+         &:before {
+             display: inline-block;
+             content: " ";
+             transform: rotate(45deg);
+             background-color: $color;
+             width: 14px;
+             height: $height;
+             z-index: 1;
+         }
+
+         &:after {
+             display: inline-block;
+             content: " ";
+             transform: rotate(-45deg);
+             background-color: $color;
+             width: 14px;
+             z-index: 1;
+             height: $height;
+
+         }
+     }
+ }
+
+ @mixin make-triangle($width, $height, $color: green) {
+     & {
+         width: $width;
+         height: $height;
+         border-left: $width solid transparent;
+         border-right: $width solid transparent;
+         border-bottom: $width solid $color;
+         z-index: 1; // <--abstract this to a variable in the future
+     }
+ }

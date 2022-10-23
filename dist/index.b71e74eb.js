@@ -532,8 +532,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"h7u1C":[function(require,module,exports) {
-var _gamepadTesterScss = require("./scss/gamepad_tester.scss");
 
-},{"./scss/gamepad_tester.scss":"79Bsb"}],"79Bsb":[function() {},{}]},["7FgBl","h7u1C"], "h7u1C", "parcelRequire8dee")
+},{}]},["7FgBl","h7u1C"], "h7u1C", "parcelRequire8dee")
 
 //# sourceMappingURL=index.b71e74eb.js.map

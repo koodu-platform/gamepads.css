@@ -4,8 +4,21 @@ $btn-size: 100px;
 .btn {
     width: $btn-size;
     height: $btn-size;
-    outline: $btn-size/4 solid;
-    @include make-round-button($btn-size, $btn-size, black);
+    @include make-round-button($btn-size, $btn-size);
 
-  
+    &__square {
+        @include make-square($btn-size, $btn-size);
+    }
+
+    &__circle {
+        @include make-circle($btn-size, $btn-size);
+    }
+
+    &__cross {
+        @include make-cross($btn-size);
+    }
+
+    &__triangle {
+        @include make-triangle($btn-size, $btn-size);
+    }
 }

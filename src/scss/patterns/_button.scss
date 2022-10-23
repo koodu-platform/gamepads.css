@@ -1,10 +1,11 @@
-@mixin make-round-button($width, $height) {
+
+@mixin make-round-button($width, $height, $color: black) {
     & {
         width: $width;
         height: $height;
         border-radius: 100%;
         background-color: black;
-        @include make-circle(100px, 100px);
+        outline: calc($width/4) solid $color;
         z-index: -1;
     }
 
