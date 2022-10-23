@@ -19,6 +19,6 @@ $btn-size: 100px;
     }
 
     &__triangle {
-        @include make-triangle();
+        @include make-triangle(12px);
     }
 }
