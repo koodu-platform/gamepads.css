@@ -1,0 +1,12 @@
+    .scene {
+        perspective: none;
+        transform-style: flat;
+        &_3d {
+            perspective: $fov;
+            perspective-origin: center;
+            transform-style: preserve-3d;
+            backface-visibility: $backface;
+            transform: translateZ(0); // fix for Chrome}
+        }
+
+    }
