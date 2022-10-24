@@ -9,7 +9,7 @@ html, body {
   width: 100vw;
 }
 
-.btn_right, .btn_left, .btn__cross:after, .btn__cross:before, .btn__cross, .btn__circle, .btn__square {
+.btn__cross:after, .btn__cross:before, .btn__cross, .btn__circle, .btn__square {
   margin: auto;
   position: relative;
   inset: 0;
@@ -39,7 +39,7 @@ html, body {
   border-right: 100px solid red;
 }
 
-.triangle_up {
+.triangle_right {
   width: 0;
   height: 0;
   border-top: 50px solid #0000;
@@ -77,10 +77,10 @@ html, body {
   height: 100px;
   width: 100px;
   height: 100px;
-  z-index: -1;
+  z-index: 1;
   background-color: #000;
   border-radius: 100%;
-  outline: 25px solid #000;
+  outline: 28.5714px solid #000;
 }
 
 .btn__square {
@@ -89,8 +89,8 @@ html, body {
   z-index: 1;
   border: 14px solid pink;
   border-radius: 0;
-  grid-area: 2 / 1 / 3 / 2;
-  background: #000 !important;
+  grid-area: 2 / 2 / 3 / -4;
+  transform: translateX(45%);
 }
 
 .btn__circle {
@@ -99,13 +99,13 @@ html, body {
   z-index: 1;
   border: 14px solid #ff4500;
   border-radius: 100%;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2 / 2 / 3 / span 4;
 }
 
 .btn__cross {
   transform-origin: center;
   z-index: 2;
-  grid-area: 3 / 1 / 4 / 3;
+  grid-area: 3 / 2 / 4 / 3;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -130,43 +130,14 @@ html, body {
 }
 
 .btn__triangle {
-  grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 2 / 3 / span 3;
   transform: translateY(25%);
-}
-
-.btn_left {
-  width: 250px;
-  height: 250px;
-  z-index: 1;
-  border: 14px solid #000;
-  border-radius: 0;
-  background: #000 !important;
-}
-
-.btn_left:after {
-  content: " ";
-  float: right;
-  display: block;
-}
-
-.btn_right {
-  width: 150px;
-  height: 150px;
-  z-index: 1;
-  border: 14px solid #000;
-  border-radius: 0;
-  background: #000 !important;
-}
-
-.btn_right:after {
-  content: " ";
-  float: right;
-  display: block;
 }
 
 .btn_group {
   height: 500px;
   width: 500px;
+  border-radius: 100%;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   display: grid;
@@ -176,6 +147,11 @@ html, body {
   grid-column-gap: 100px;
   grid-row-gap: 50px;
   margin: auto;
+}
+
+.btn_group.btn_directional {
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
 }
 
 /*# sourceMappingURL=index.fa21b4f1.css.map */
