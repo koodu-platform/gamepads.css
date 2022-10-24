@@ -14,14 +14,16 @@
     }
 
     &_convex {
-        background: linear-gradient(-360deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
+        background: linear-gradient(-90deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
     }
 
     &_concave {
         background: linear-gradient(180deg, #569AE2, lightblue);
         box-shadow: 12px 12px 16px 0 rgba(41, 115, 129, 0.25),
-           inset -8px -8px 12px 0 rgba(6, 70, 159, 0.3),
-           inset 12px 12px 16px 0 #569AE2,
+            inset -8px -8px 12px 0 rgba(6, 70, 159, 0.3),
+            inset 12px 12px 16px 0 #569AE2,
             -8px -8px 12px 0 lightblue;
     }
 }

@@ -28,11 +28,12 @@
      border-bottom: 50%;
  }
 
-%bordered {
-    @extend %bordered-top;
-    @extend %bordered-bottom;
+ %bordered {
+     @extend %bordered-top;
+     @extend %bordered-bottom;
 
-}
+ }
+
  @mixin make-square($width, $height, $color: pink) {
      & {
          @extend %centered;
@@ -40,7 +41,9 @@
          height: $height;
          border: 14px solid $color;
          z-index: 1;
-         border-radius: 100%;
+         border-radius: 0;
+         background: black !important;
+
      }
  }
 

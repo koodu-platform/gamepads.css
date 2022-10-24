@@ -28,7 +28,9 @@ $btn-size: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 5px;
+    margin: auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
     border-radius: 100%;
     // background: ;
     height: 500px;
@@ -39,6 +41,7 @@ $btn-size: 100px;
     .btn__triangle {
         grid-column: 1/3;
         grid-row: 1/ 2;
+        transform: translateY(25%);
 
     }
 
@@ -55,8 +58,8 @@ $btn-size: 100px;
     .btn__cross {
         grid-column: 1/3;
         grid-row: 3/ 4;
-
-
+        transform-origin: center center;
+        transform: translateY(-45%);
     }
 
 }

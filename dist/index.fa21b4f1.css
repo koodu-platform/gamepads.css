@@ -9,7 +9,7 @@ html, body {
   width: 100vw;
 }
 
-.btn_group .btn__cross, .btn__triangle, .btn__cross:after, .btn__cross:before, .btn__cross, .btn__circle, .btn__square {
+.btn__triangle, .btn__cross:after, .btn__cross:before, .btn__cross, .btn__circle, .btn__square {
   margin: auto;
   position: relative;
   inset: 0;
@@ -26,12 +26,13 @@ html, body {
   box-shadow: 12px 12px 16px #00000040, -8px -8px 12px #ffffff4d;
 }
 
-.skin_flat, .btn_group .btn__cross {
+.skin_flat {
   background: #afd275;
 }
 
 .skin_convex {
-  background: linear-gradient(-360deg, #00000038, #ffffff40);
+  background: linear-gradient(-90deg, #00000038, #ffffff40);
+  box-shadow: 12px 12px 16px #00000040, -8px -8px 12px #ffffff4d;
 }
 
 .skin_concave, .btn_group {
@@ -55,7 +56,8 @@ html, body {
   height: 100px;
   z-index: 1;
   border: 14px solid pink;
-  border-radius: 100%;
+  border-radius: 0;
+  background: #000 !important;
 }
 
 .btn__circle {
@@ -101,17 +103,20 @@ html, body {
 }
 
 .btn_group {
-  grid-gap: 5px;
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
   height: 500px;
   width: 500px;
   border-radius: 100%;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
+  margin: auto;
   display: grid;
 }
 
 .btn_group .btn__triangle {
   grid-area: 1 / 1 / 2 / 3;
+  transform: translateY(25%);
 }
 
 .btn_group .btn__square {
@@ -123,7 +128,9 @@ html, body {
 }
 
 .btn_group .btn__cross {
+  transform-origin: center;
   grid-area: 3 / 1 / 4 / 3;
+  transform: translateY(-45%);
 }
 
 /*# sourceMappingURL=index.fa21b4f1.css.map */
