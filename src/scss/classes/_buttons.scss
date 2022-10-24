@@ -19,6 +19,37 @@ $btn-size: 100px;
     }
 
     &__triangle {
-        @include make-triangle($btn-size, $btn-size);
+        @include make-triangle($width: $btn-size);
+    }
+}
+
+.btn_group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+    height: 500px;
+    width: 500px;
+
+    // align
+    .btn__triangle {
+        grid-column: 1/3;
+        grid-row: 1/ 2;
+
+    }
+
+    .btn__square {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .btn__circle {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .btn__cross {
+        grid-column: 1/3;
+        grid-row: 3/4;
     }
 }
