@@ -1,5 +1,6 @@
 @import "normalize.css";
 @import "resets.css";
 
+// must be ordered;
+@import "./_variables.scss"; 
 @import "./_scene.scss";
-@import "./_variables.scss";
