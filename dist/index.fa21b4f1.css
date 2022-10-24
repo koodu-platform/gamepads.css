@@ -9,7 +9,7 @@ html, body {
   width: 100vw;
 }
 
-.btn__triangle, .btn__cross, .btn__circle, .btn__square {
+.btn__triangle, .btn__cross:after, .btn__cross:before, .btn__cross, .btn__circle, .btn__square {
   margin: auto;
   position: relative;
   inset: 0;
@@ -53,7 +53,7 @@ html, body {
   width: 100px;
   height: 100px;
   z-index: 1;
-  border: 14px solid orange;
+  border: 14px solid pink;
   border-radius: 0;
 }
 
@@ -61,32 +61,32 @@ html, body {
   width: 100px;
   height: 100px;
   z-index: 1;
-  border: 14px solid red;
+  border: 14px solid #ff4500;
   border-radius: 100%;
 }
 
 .btn__cross {
+  width: 50px;
+  height: 50px;
+  z-index: 2;
   justify-content: center;
   align-items: center;
-  display: inline-flex;
+  display: flex;
 }
 
 .btn__cross:before {
   content: " ";
   width: 10px;
   height: 58px;
-  z-index: 1;
-  background-color: #00f;
-  position: absolute;
+  background-color: #add8e6;
   transform: rotate(45deg);
 }
 
 .btn__cross:after {
   content: " ";
   width: 10px;
-  z-index: 1;
   height: 58px;
-  background-color: #00f;
+  background-color: #add8e6;
   position: absolute;
   transform: rotate(-45deg);
 }

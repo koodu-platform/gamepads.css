@@ -24,14 +24,12 @@
  }
 
  %bordered-bottom {
-
      border-top: 50%;
      border-bottom: 50%;
-
  }
 
 
- @mixin make-square($width, $height, $color: orange) {
+ @mixin make-square($width, $height, $color: pink) {
      & {
          @extend %centered;
          width: $width;
@@ -42,10 +40,9 @@
      }
  }
 
- @mixin make-circle($width, $height, $color: red) {
+ @mixin make-circle($width, $height, $color: orangered) {
      & {
          @extend %centered;
-
          border-radius: 100%;
          width: $width;
          height: $height;
@@ -55,13 +52,15 @@
 
  }
 
- @mixin make-cross($width, $height, $color: blue) {
+ @mixin make-cross($height, $color: lightblue) {
      & {
-         width: $width;
-         display: inline-flex;
+
+         display: flex;
          justify-content: center;
          align-items: center;
+         height: $height;
          @extend %centered;
+         z-index: 2;
 
          &:before {
              content: " ";
@@ -69,9 +68,9 @@
              transform: rotate(45deg);
              width: 10px;
              height: $height+8px;
-             z-index: 1;
-             position: absolute;
+             @extend %centered;
          }
+
 
          &:after {
              position: absolute;
@@ -79,7 +78,8 @@
              background-color: $color;
              transform: rotate(-45deg);
              width: 10px;
-             z-index: 1;
+             @extend %centered;
+
              height: $height+8px;
          }
      }
