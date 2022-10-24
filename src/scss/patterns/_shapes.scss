@@ -55,30 +55,37 @@
 
  @mixin make-cross($height, $color: blue) {
      & {
-         display: flex;
-         justify-content: center;
-         align-items: center;
+
+         display: inline-flex;
+         position: relative;
 
          // @extend %centered;
          &:before {
-             display: inline-block;
+             position: relative;
+             @extend %centered;
              content: " ";
-             transform: rotate(45deg) translateX(50%);
+             transform: rotate(45deg) translateX(50%) translateY(-25px);
              float: left;
              background-color: $color;
              width: 14px;
              height: $height;
              z-index: 1;
+             transform: translatex(50%);
+
          }
 
          &:after {
-             display: inline-block;
+             display: inline;
+             position: relative;
+             @extend %centered;
              content: " ";
              transform: rotate(-45deg) translateX(-50%);
              background-color: $color;
              width: 14px;
              z-index: 1;
              float: right;
+             transform: translatex(50%);
+
              height: $height;
 
          }
@@ -101,7 +108,7 @@
                  content: " ";
                  display: block;
                  width: $width;
-                 height: 2px;
+                 height: $width;
                  background: red;
                  -webkit-transform: rotate(56deg);
                  -moz-transform: rotate(56deg);

@@ -15,10 +15,10 @@ $btn-size: 100px;
     }
 
     &__cross {
-        @include make-cross(calc($btn-size / 2));
+        @include make-cross(calc($btn-size / 1.5));
     }
 
     &__triangle {
-        @include make-triangle(12px);
+        @include make-triangle(100px);
     }
 }
