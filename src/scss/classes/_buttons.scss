@@ -9,7 +9,7 @@ $btn-size: 100px;
 
     &__square {
         @include make-square($btn-size, $btn-size);
-        grid-column: 2/  -4;
+        grid-column: 2/ -4;
         grid-row: 2/ 3;
         transform: translateX(45%);
     }
@@ -34,9 +34,7 @@ $btn-size: 100px;
         transform: translateY(25%);
     }
 
-    &_left {}
 
-    &_right {}
 }
 
 .btn_group {
@@ -44,8 +42,8 @@ $btn-size: 100px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 500px;
-    width: 500px;       
-    border-radius: 100%;
+    width: 500px;
+    border-radius: 50%;
 
     &.btn_regular {
         margin: auto;
