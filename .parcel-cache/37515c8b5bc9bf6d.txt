@@ -331,7 +331,7 @@
 86C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\typescript\bin\tsserver133111113452377288 0
 136C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\source-map-support@0.5.21\node_modules\source-map-support\README.md133111136914714798 0
 159C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\workers\lib\Worker.js133111136884750735 0
-81C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_resolver.scss133111246734913030 0
+81C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_resolver.scss133111247498492872 0
 130C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\htmlparser2@7.2.0\node_modules\htmlparser2\lib\index.d.ts.map133111136910067857 0
 78C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_scene.scss133111245109124591 0
 179C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133111136854159248 0
