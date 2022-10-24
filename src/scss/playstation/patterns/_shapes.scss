@@ -6,20 +6,19 @@
     right: 0;
 }
 
-
 @mixin make-square($size, $color) {
-    .square {
+    &.square {
         @extend %centered;
         width: $size;
         height: $size;
         border: calc($size / 2) solid $color;
-        border-right: 0;
-        background: transparent;
+        border-radius: 0;
+        background: red;
     }
 }
 
 @mixin make-circle($size, $color) {
-    .circle {
+    &.circle {
         border-radius: 100%;
         width: $size;
         height: $size;
@@ -29,7 +28,7 @@
 }
 
 @mixin make-cross($size) {
-    .cross {
+    &.cross {
         position: absolute;
         @extend %centered;
         width: $size;
@@ -46,7 +45,7 @@
 }
 
 @mixin make-triangle($size, $color) {
-    .triangle {
+    &.triangle {
         position: relative;
         margin-top: 100px;
         width: $size;

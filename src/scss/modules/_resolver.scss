@@ -1,5 +1,6 @@
-@import "./normalize.css";
-@import "./resets.css";
+// absolute path for css modules
+@import "./modules/normalize.css";
+@import "./modules/resets.css";
 
 // must be ordered;
 @import "./_variables.scss"; 

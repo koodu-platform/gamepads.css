@@ -1,6 +1,6 @@
 22088
 96C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\yaml\schema.js133111136929300305 0
-54C:\Users\Develogy\Workspace\www\gamepadtester.com\dist133111240144470125 1
+54C:\Users\Develogy\Workspace\www\gamepadtester.com\dist133111261867095859 1
 118C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\svgo@2.8.0\node_modules\csso\lib\clean\Comment.js133111136909086145 0
 99C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\csso\CHANGELOG.md133111136916385979 0
 166C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+cache@2.7.0\node_modules\lmdb\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133111189523906261 0
@@ -63,7 +63,7 @@
 165C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\transformer-js\node_modules133111189516321680 1
 113C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\caniuse-lite\data\regions\TT.js133111136928149094 0
 113C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\utility-types\dist\index.js.map133111136890642406 0
-95C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\components\_buttons.scss133111243293275570 0
+95C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\components\_buttons.scss133111260602600144 0
 180C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-image@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\transformer-image\lib\validateConfig.js133111136840077601 0
 118C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\caniuse-lite\data\features\tls1-1.js133111136927979189 0
 158C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\parcel@2.7.0\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src\index.js133111136725800720 0
@@ -144,7 +144,7 @@
 119C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\parcel@2.7.0\node_modules\@parcel\reporter-cli\lib133111189495207710 1
 153C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+runtime-browser-hmr@2.7.0\node_modules\@parcel\utils\test\DefaultMap.test.js133111136711329143 0
 113C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\caniuse-lite\data\regions\PM.js133111136926444703 0
-64C:\Users\Develogy\Workspace\www\gamepadtester.com\src\index.html133111237904723379 0
+64C:\Users\Develogy\Workspace\www\gamepadtester.com\src\index.html133111252241534802 0
 163C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-image@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\src\loadDotEnv.js133111136725779501 0
 117C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\typescript\lib\pt-br\diagnosticMessages.generated.json133111113474561135 0
 62C:\Users\Develogy\Workspace\www\gamepadtester.com\src\index.ts133111200299656715 0
@@ -180,7 +180,7 @@
 143C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\package-manager\test\fixtures\packages\a\package.json133111136933014026 0
 121C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\css-what@6.1.0\node_modules\css-what\lib\es\index.js133111136927229752 0
 67C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\gamepads133111235794980798 1
-72C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\gptester.scss133111243513762426 0
+72C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\gptester.scss133111248630686452 0
 110C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\tslib@2.4.0\node_modules\tslib\tslib.d.ts133111136914129371 0
 126C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+packager-svg@2.7.0\node_modules\@parcel\types\lib133111189477020547 1
 85C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\typescript\LICENSE.txt133111113476998259 0
@@ -252,12 +252,12 @@
 171C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+config-default@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\namer-default\lib\DefaultNamer.js133111136813815899 0
 116C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\posthtml-render@3.0.0\node_modules\is-json\test133111189490074571 1
 111C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\chokidar@3.5.3\node_modules\is-binary-path133111189483048711 1
-87C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\playstation.scss133111243269608908 0
+87C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\playstation.scss133111248693136657 0
 141C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+core@2.7.0\node_modules\@parcel\source-map\dist\wasm-bindings.js133111136854236286 0
 100C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\msgpackr\README.md133111136863748007 0
 146C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+types@2.7.0\node_modules\@parcel\workers\src\process\ProcessWorker.js133111136884666683 0
 185C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+source-map@2.1.1\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-musl.node133111136884117368 0
-92C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\patterns\_shapes.scss133111239894367162 0
+92C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\playstation\patterns\_shapes.scss133111261873655324 0
 124C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\color-convert@1.9.3\node_modules\color-convert\route.js133111136940938695 0
 126C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\parcel@2.7.0\node_modules\@parcel\utils\src\DefaultMap.js133111136711329143 0
 117C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\term-size@2.2.1\node_modules\term-size\readme.md133111136866785626 0
@@ -325,13 +325,13 @@
 118C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\node-addon-api\tools\clang-format.js133111136900551639 0
 142C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\htmlnano@2.0.2_svgo@2.8.0\node_modules\svgo\plugins\convertShapeToPath.js133111136873282378 0
 144C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\posthtml-parser@0.11.0\node_modules\htmlparser2\lib\WritableStream.d.ts.map133111136910067857 0
-84C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\gamepads\playstation.scss133111240578372970 0
+84C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\gamepads\playstation.scss133111262529762983 0
 105C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\bundler-default133111189514013780 1
 147C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+bundler-default@2.7.0\node_modules\@parcel\utils\src\parseCSSImport.js133111136715744294 0
 86C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\typescript\bin\tsserver133111113452377288 0
 136C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\source-map-support@0.5.21\node_modules\source-map-support\README.md133111136914714798 0
 159C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\workers\lib\Worker.js133111136884750735 0
-81C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_resolver.scss133111247498492872 0
+81C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_resolver.scss133111260891438710 0
 130C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\htmlparser2@7.2.0\node_modules\htmlparser2\lib\index.d.ts.map133111136910067857 0
 78C:\Users\Develogy\Workspace\www\gamepadtester.com\src\scss\modules\_scene.scss133111245109124591 0
 179C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133111136854159248 0
@@ -11827,7 +11827,7 @@
 113C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\codeframe\test\fixtures133111189477384469 1
 151C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\caniuse-lite@1.0.30001423\node_modules\caniuse-lite\data\features\localecompare.js133111136925323680 0
 118C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\codeframe\test\fixtures\a.js133111136893677154 0
-73C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.4ea8e0c1.css133111240144216639 0
+73C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.4ea8e0c1.css133111261867070562 0
 120C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\codeframe\lib\codeframe.js.map133111136924317025 0
 110C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\node_modules\@parcel\cache\src\FSCache.js133111136854625654 0
 133C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\browserslist@4.21.4\node_modules\caniuse-lite\data\regions\MU.js133111136925993973 0
@@ -17150,7 +17150,7 @@
 159C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\utils\src\throttle.js133111136715923575 0
 167C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-image@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\src\public\Symbols.js133111136726897881 0
 158C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\utils\src\urlJoin.js133111136715923575 0
-76C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.b71e74eb.js.map133111240144455083 0
+76C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.b71e74eb.js.map133111260134348925 0
 156C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\utils\lib\index.js133111136715722058 0
 178C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+package-manager@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\node_modules\.bin\browserslist.ps1133111189516033849 0
 156C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+transformer-js@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\transformer-js\lib133111189493577213 1
@@ -20201,7 +20201,7 @@
 143C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\package.json133111136727394344 0
 135C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\test133111189484207277 1
 155C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\test\BundleGraph.test.js133111136725371396 0
-72C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.b71e74eb.js133111240144413410 0
+72C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.b71e74eb.js133111260134285350 0
 156C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\test\EntryRequest.test.js133111136725559828 0
 155C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0_@parcel+core@2.7.0\node_modules\@parcel\core\test\Environment.test.js133111136725790436 0
 141C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@parcel+fs@2.7.0\node_modules\@parcel\utils\test\input\config\empty.json133111113448059945 0
@@ -21973,7 +21973,7 @@
 146C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+trace-mapping@0.3.17\node_modules\@jridgewell\resolve-uri\LICENSE133111136910845334 0
 148C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+trace-mapping@0.3.17\node_modules\@jridgewell\resolve-uri\README.md133111136932364395 0
 162C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+trace-mapping@0.3.17\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.umd.js133111136932323574 0
-65C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.html133111238942994393 0
+65C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.html133111260135038182 0
 116C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+sourcemap-codec@1.4.14\node_modules133111189491399511 1
 144C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+sourcemap-codec@1.4.14\node_modules\@jridgewell\sourcemap-codec133111189491974522 1
 149C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.pnpm\@jridgewell+sourcemap-codec@1.4.14\node_modules\@jridgewell\sourcemap-codec\dist133111189491962606 1
@@ -22086,4 +22086,4 @@
 78C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.bin\parcel.CMD133111189531551371 0
 78C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.bin\parcel.ps1133111189531563977 0
 75C:\Users\Develogy\Workspace\www\gamepadtester.com\node_modules\.bin\tsc.ps1133111189531607238 0
-77C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.4ea8e0c1.css.map133111240144274532 0
+77C:\Users\Develogy\Workspace\www\gamepadtester.com\dist\index.4ea8e0c1.css.map133111261867090751 0
