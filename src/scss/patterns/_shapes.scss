@@ -28,7 +28,11 @@
      border-bottom: 50%;
  }
 
+%bordered {
+    @extend %bordered-top;
+    @extend %bordered-bottom;
 
+}
  @mixin make-square($width, $height, $color: pink) {
      & {
          @extend %centered;
@@ -36,7 +40,7 @@
          height: $height;
          border: 14px solid $color;
          z-index: 1;
-         border-radius: 0px;
+         border-radius: 100%;
      }
  }
 
@@ -58,7 +62,6 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         height: $height;
          @extend %centered;
          z-index: 2;
 
@@ -71,7 +74,6 @@
              @extend %centered;
          }
 
-
          &:after {
              position: absolute;
              content: " ";
@@ -79,19 +81,14 @@
              transform: rotate(-45deg);
              width: 10px;
              @extend %centered;
-
              height: $height+8px;
          }
      }
  }
 
  @mixin make-triangle($width: 50px, $color: green) {
-     // create a hollow triangle
-     // use outline property
-
      & {
          @extend %centered;
-
          border: $width solid transparent;
          border-bottom-color: $color;
          border-top: 0;
