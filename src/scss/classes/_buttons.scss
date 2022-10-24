@@ -4,8 +4,7 @@ $btn-size: 100px;
 .btn {
     width: $btn-size;
     height: $btn-size;
-    @include make-round-button($btn-size, $btn-size);
-    // border-radius: 100%;
+    // @include make-round-button($btn-size, $btn-size);
 
     &__square {
         @include make-square($btn-size, $btn-size);

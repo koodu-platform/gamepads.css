@@ -225,12 +225,6 @@ html, body {
 .btn {
   width: 100px;
   height: 100px;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  background-color: #000;
-  border-radius: 100%;
-  outline: 28.5714px solid #000;
 }
 
 .btn__square {
