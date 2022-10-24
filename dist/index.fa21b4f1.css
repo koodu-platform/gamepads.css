@@ -15,6 +15,38 @@ html, body {
   inset: 0;
 }
 
+.triangle_up {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 50px solid #0000;
+  border-right: 50px solid #0000;
+}
+
+.triangle_down {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 50px solid #0000;
+  border-right: 50px solid #0000;
+}
+
+.triangle_left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #0000;
+  border-bottom: 50px solid #0000;
+  border-right: 100px solid red;
+}
+
+.triangle_up {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #0000;
+  border-bottom: 50px solid #0000;
+  border-left: 100px solid red;
+}
+
 .skin {
   height: 200px;
   width: 200px;
@@ -144,38 +176,6 @@ html, body {
   grid-column-gap: 100px;
   grid-row-gap: 50px;
   margin: auto;
-}
-
-.triangle-up, .btn__triangle {
-  width: 0;
-  height: 0;
-  border-bottom: 100px solid red;
-  border-left: 50px solid #0000;
-  border-right: 50px solid #0000;
-}
-
-.triangle-down {
-  width: 0;
-  height: 0;
-  border-top: 100px solid red;
-  border-left: 50px solid #0000;
-  border-right: 50px solid #0000;
-}
-
-.triangle-left {
-  width: 0;
-  height: 0;
-  border-top: 50px solid #0000;
-  border-bottom: 50px solid #0000;
-  border-right: 100px solid red;
-}
-
-.triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 50px solid #0000;
-  border-bottom: 50px solid #0000;
-  border-left: 100px solid red;
 }
 
 /*# sourceMappingURL=index.fa21b4f1.css.map */
