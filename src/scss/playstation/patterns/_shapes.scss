@@ -1,0 +1,90 @@
+%centered {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+@mixin make-square($size, $color) {
+    .square {
+        @extend %centered;
+        width: $size;
+        height: $size;
+        border: calc($size / 2) solid $color;
+        border-right: 0;
+        background: transparent;
+    }
+}
+
+@mixin make-circle($size, $color) {
+    .circle {
+        border-radius: 100%;
+        width: $size;
+        height: $size;
+        border: calc($size /2) solid $color;
+        background-color: transparent;
+    }
+}
+
+@mixin make-cross($size) {
+    .cross {
+        position: absolute;
+        @extend %centered;
+        width: $size;
+        height: $size;
+
+        &:before {
+            rotate: -45deg;
+        }
+
+        &:after {
+            rotate: 45deg;
+        }
+    }
+}
+
+@mixin make-triangle($size, $color) {
+    .triangle {
+        position: relative;
+        margin-top: 100px;
+        width: $size;
+
+        >div {
+            width: $size;
+            height: 2px;
+            background: $color;
+
+            &:before {
+                content: " ";
+                display: block;
+                width: $size;
+                height: 2px;
+                background: $color;
+                -webkit-transform: rotate(56deg);
+                -moz-transform: rotate(56deg);
+                -ms-transform: rotate(56deg);
+                transform: rotate(56deg);
+                position: absolute;
+                top: -8px;
+                right: -5px;
+            }
+
+            &:after {
+                content: " ";
+                display: block;
+                width: $size;
+                height: 2px;
+                background: $color;
+                -webkit-transform: rotate(-56deg);
+                -moz-transform: rotate(-56deg);
+                -ms-transform: rotate(-56deg);
+                transform: rotate(-56deg);
+                position: absolute;
+                top: -8px;
+                left: -5px;
+            }
+        }
+    }
+}

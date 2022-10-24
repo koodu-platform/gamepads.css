@@ -6,37 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> GamepadTester.com</title>
-    <link rel="stylesheet" href="./scss/gamepad_tester.scss">
+    <link rel="stylesheet" href="./scss/gptester.scss">
     <script src="./index.ts" defer type="module"></script>
 </head>
 
 <body>
     <h1>Gamepad Tester</h1>
-    <div class="scene">
-        <div class="controller ps4 ">
-            <div class="ps4_option" id="share">
-                <label for="share"></label>
+    <div class="scene scene_3d">
+        <div class="playstation">
+            <div class="btn_group">
+                <div class="btn" id="share">
+                    <label for="share"></label>
+                </div>
+                <div class="btn" id="options">
+                    <label for="options"></label>
+                </div>
+                <div class="touchpad"></div>
             </div>
-            <div class="ps4_touch"></div>
-            <div class="ps4_option" id="option">
-                <label for="options"></label>
-            </div>
-            <div class="sound_bar">
-                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <div class="btn_group btn_regular">
-                <div class="btn btn__square"></div>
-                <div class="btn btn__triangle"></div>
-                <div class="btn btn__cross"></div>
-                <div class="btn btn__circle"></div>
-            </div>
-            <div class="btn btn_left"></div>
-            <div class="btn btn_right"></div>
-            <div class="btn btn_top"></div>
-            <div class="btn btn_bottom"></div>
-        </div>
-    </div>
 
+            <div class="btn_group round">
+                <div class="btn triange"></div>
+                <div class="btn square"></div>
+                <div class="btn cross"></div>
+                <div class="btn circle"></div>
+            </div>
+        </div>
     </div>
 
 
