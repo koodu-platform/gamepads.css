@@ -9,7 +9,7 @@ html, body {
   width: 100vw;
 }
 
-.btn__cross:after, .btn__cross:before {
+.btn__cross {
   margin: auto;
   position: relative;
   inset: 0;
@@ -43,50 +43,47 @@ html, body {
 }
 
 .btn__cross {
+  justify-content: center;
+  align-items: center;
   display: inline-flex;
-  position: relative;
 }
 
 .btn__cross:before {
   content: " ";
-  float: left;
-  width: 14px;
-  height: 66.6667px;
+  width: 10px;
+  height: 58px;
   z-index: 1;
   background-color: #00f;
-  position: relative;
-  transform: rotate(45deg)translateX(50%)translateY(-25px);
+  position: absolute;
+  transform: rotate(45deg);
 }
 
 .btn__cross:after {
   content: " ";
-  width: 14px;
+  width: 10px;
   z-index: 1;
-  float: right;
-  height: 66.6667px;
+  height: 58px;
   background-color: #00f;
-  display: inline;
-  position: relative;
-  transform: rotate(-45deg)translateX(-50%)translateY(25px);
+  position: absolute;
+  transform: rotate(-45deg);
 }
 
 .btn__triangle {
-  width: 100px;
+  width: 20px;
   margin-top: 100px;
   position: relative;
 }
 
 .btn__triangle > div {
-  width: 100px;
+  width: 20px;
   height: 2px;
   background: red;
-  margin-top: 100px;
 }
 
 .btn__triangle > div:before {
   content: " ";
-  width: 100px;
-  height: 100px;
+  width: 20px;
+  height: 2px;
   background: red;
   display: block;
   position: absolute;
@@ -97,7 +94,7 @@ html, body {
 
 .btn__triangle > div:after {
   content: " ";
-  width: 100px;
+  width: 20px;
   height: 2px;
   background: red;
   display: block;

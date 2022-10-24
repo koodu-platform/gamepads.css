@@ -57,82 +57,40 @@
      & {
 
          display: inline-flex;
-         position: relative;
+         justify-content: center;
+         align-items: center;
+         @extend %centered;
 
-         // @extend %centered;
          &:before {
-             position: relative;
-             @extend %centered;
              content: " ";
-             transform: rotate(45deg) translateX(50%) translateY(-25px);
-             float: left;
              background-color: $color;
-             width: 14px;
-             height: $height;
+             transform: rotate(45deg);
+             width: 10px;
+             height: $height+8px;
              z-index: 1;
-             transform: translatex(50%);
-
+             position: absolute;
          }
 
          &:after {
-             display: inline;
-             position: relative;
-             @extend %centered;
+             position: absolute;
              content: " ";
-             transform: rotate(-45deg) translateX(-50%);
              background-color: $color;
-             width: 14px;
+             transform: rotate(-45deg);
+             width: 10px;
              z-index: 1;
-             float: right;
-             transform: translatex(50%);
-
-             height: $height;
-
+             height: $height+8px;
          }
      }
  }
 
- @mixin make-triangle($width: 14px, $color: green) {
+ @mixin make-triangle($width, $height, $color: green) {
      & {
-         position: relative;
-         width: $width;
-         margin-top: 100px;
-
-         >div {
-             width: $width;
-             height: 2px;
-             background: red;
-             margin-top: 100px;
-
-             &:before {
-                 content: " ";
-                 display: block;
-                 width: $width;
-                 height: $width;
-                 background: red;
-                 -webkit-transform: rotate(56deg);
-                 -moz-transform: rotate(56deg);
-                 -ms-transform: rotate(56deg);
-                 transform: rotate(56deg);
-                 position: absolute;
-                 top: -8px;
-                 right: -5px;
-             }
-
-             &:after {
-                 content: " ";
-                 display: block;
-                 width: $width;
-                 height: 2px;
-                 background: red;
-                 -webkit-transform: rotate(-56deg);
-                 -moz-transform: rotate(-56deg);
-                 -ms-transform: rotate(-56deg);
-                 transform: rotate(-56deg);
-                 position: absolute;
-                 top: -8px;
-                 left: -5px;
-             }
-         }
+         width: 0;
+         height: 0;
+         border-left: $width/2 solid transparent;
+         border-right: $width/2 solid transparent;
+         border-bottom: $height solid $color;
+         z-index: 1;
      }
+ 
  }
