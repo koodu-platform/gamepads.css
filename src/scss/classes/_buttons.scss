@@ -54,7 +54,7 @@ $btn-size: 100px;
 
     }
 
-    @extend .skin_concave;
+    @extend .skin_convex;
 
     &.btn_directional {
         grid-column-gap: 100px;
