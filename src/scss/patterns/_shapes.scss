@@ -89,15 +89,4 @@
      }
  }
 
- @mixin make-triangle($width: 50px, $color: green) {
-     & {
-         @extend %centered;
-         border: $width solid transparent;
-         border-bottom-color: $color;
-         border-top: 0;
-         border-left: 0;
-         width: 0;
-         height: 0;
-         z-index: 1;
-     }
- }
+ 

@@ -12,16 +12,14 @@
 
 @mixin make-directional-button($width, $height, $color: black) {
     & {
-        @include make-square($width, $height);
-
-        z-index: -1;
-
+        
+        @include make-square($width, $height,$color);
         &:after {
             display: block;
             content: " ";
             float: right;
-            @include make-triangle($width / 2, 100px, $color);
-        }
+            
+            }
     }
 
 
