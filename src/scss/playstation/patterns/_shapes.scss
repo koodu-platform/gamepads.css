@@ -13,12 +13,12 @@
         height: $size;
         border: calc($size / 2) solid $color;
         border-radius: 0;
-        background: red;
     }
 }
 
 @mixin make-circle($size, $color) {
     &.circle {
+        @extend %centered;
         border-radius: 100%;
         width: $size;
         height: $size;

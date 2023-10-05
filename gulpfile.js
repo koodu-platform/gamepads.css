@@ -2,9 +2,9 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require("node-sass"));
 
 gulp.task('sass', function () {
-    return gulp.src('src/scss/**/*.scss') // Source directory for your SCSS files
+    return gulp.src('src/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('dist/css')); // Destination directory for the compiled CSS files
+        .pipe(gulp.dest('dist/css')); 
 });
 
 gulp.task('watch', function () {
