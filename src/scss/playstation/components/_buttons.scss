@@ -9,7 +9,7 @@ $btn-size: 100px;
         width: $cross-axis;
         height: $cross-axis;
     }
-
+    
     &-square {
         @include make-square($btn-size, pink);
         grid-column: 2 / -4;
@@ -18,17 +18,16 @@ $btn-size: 100px;
 
     &-circle {
         @include make-circle($btn-size, orangered);
-        grid-column: 2 / span 1;
-        grid-row: 2 / span 1;
+        grid-column: 2 / 3; 
+        grid-row: 3 / 4;    
     }
-
-
+    
+    
     &-cross {
         @include make-cross($btn-size, pink);
         grid-column: 2/3;
         grid-row: 3/ 4;
     }
-
 
     &-triangle {
         grid-row: 1/3;

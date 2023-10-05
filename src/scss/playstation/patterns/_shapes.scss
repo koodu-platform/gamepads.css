@@ -27,13 +27,13 @@
     }
 }
 
-@mixin make-cross($size) {
+@mixin make-cross($size,$bg) {
     &.cross {
         position: absolute;
         @extend %centered;
         width: $size;
         height: $size;
-
+        background-color: $bg;
         &:before {
             rotate: -45deg;
         }

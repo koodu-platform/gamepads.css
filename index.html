@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamepad </title>
+    <title>Gamepad Tester</title>
+    <!-- Include your CSS files here -->
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./dist/css/gamepads.css">
@@ -17,20 +18,20 @@
         <div class="controller">
             <div class="scene scene_3d">
                 <div class="playstation">
-                    <div class="cross-axis">
-                        <div class="btn" id="share">
+                    <div class="btn btn-cross-axis">
+                        <div class="btn btn-square" id="share">
                             <label for="share"></label>
                         </div>
-                        <div class="btn" id="options">
+                        <div class="btn btn-square" id="options">
                             <label for="options"></label>
                         </div>
-                        <div class="touchpad"></div>
+                        <div class="btn touchpad"></div>
                     </div>
-                    <div class="btn-cross-axis round ">
-                        <div class="btn-triangle" style='background:rgb(67, 16, 16)'></div>
-                        <div class="btn-square" style="background-color: rgb(82, 22, 32);"></div>
-                        <div class="btn-cross" style="background-color: purple;"></div>
-                        <div class="btn-circle" style="background-color: rgb(30, 44, 103);"></div>
+                    <div class="btn btn-cross-axis">
+                        <div class="btn btn-triangle" style="background: red;"></div>
+                        <div class="btn btn-square" style="background: red;"></div>
+                        <div class="btn btn-cross" style="background: red;"></div>
+                        <div class="btn btn-circle" style="background: pink;"></div>
                     </div>
                 </div>
             </div>
